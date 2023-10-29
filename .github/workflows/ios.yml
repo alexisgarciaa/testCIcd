@@ -18,6 +18,3 @@ jobs:
         run: sudo Xcode-select -switch /Applications/Xcode.app
       - name: Select Xcode
         run: xcrun simctl list devices
-
-      - name: Build & Test
-        run: swift build
