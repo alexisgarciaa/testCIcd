@@ -20,4 +20,4 @@ jobs:
         run: xcrun simctl list devices
 
       - name: Build & Test
-        run: xcodebuild test -workspace testCIcd.xcodeproj/project.xcworkspace -scheme testCIcd -destination 'platform=iOS Simulator,name=iPhone 13 Pro Max,OS=16.2'
+        run: xcodebuild test -workspace testCIcd.xcodeproj/project.xcworkspace -scheme testCIcd -destination 'platform=iOS Simulator,id:66A312C7-612F-437F-B73D-10ED87D39F3A,name=iPhone 13 Pro Max,OS=16.2'
