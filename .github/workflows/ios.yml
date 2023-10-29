@@ -19,4 +19,4 @@ jobs:
       - name: Select Xcode
         run: xcodebuild -list
       - name: Build & Test
-        run: xcodebuild test -workspace testCIcd.xcodeproj/project.xcworkspace -scheme testCIcdTests -destination 'platform=iOS Simulator,id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder,name=iPhone 13 Pro Max,OS=16.4'
+        run: xcodebuild test -workspace testCIcd.xcodeproj/project.xcworkspace -scheme testCIcd -destination 'platform=iOS Simulator,id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder,name=iPhone 13 Pro Max,OS=16.4'
